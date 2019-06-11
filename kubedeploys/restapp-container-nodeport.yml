@@ -34,10 +34,12 @@ spec:
     - port: 8080
       targetPort: 8080
       protocol: TCP
+      nodePort: 32019
       name: canary
     - port: 9090
       targetPort: 9090
       protocol: TCP
+      nodePort: 31728
       name: metrics
   selector:
     app: opsmx-restapp
