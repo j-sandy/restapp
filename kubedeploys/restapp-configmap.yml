@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: restapp-config
+data:
+  path: /home/user/restapp
+  user: opsmx
