@@ -4,4 +4,4 @@ metadata:
   name: restapp-config
 data:
   path: /home/user/restapp
-  user: opsmxuser
+  user: opsmxuser1
